@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+/* header */
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color:white;
+    margin: 45px 0;
+}
+
+/* main */
+
+#container {
+
+    max-width: 1100px;
+    margin: 25px auto;
+}
+
+/* ! table */
+
+table {
+    width: 100%;
+}
+
+tr {
+    height: 40px;
+}
+
+tr:nth-child(even){
+    background-color: dodgerblue;
+}
+
+tr:nth-child(odd){
+    background-color: black;
+}
